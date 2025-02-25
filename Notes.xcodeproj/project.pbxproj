@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B1712F02D6CDD2600A30200 /* ExamplesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1712EF2D6CDD2600A30200 /* ExamplesView.swift */; };
+		8B1712F22D6CE18700A30200 /* ViewFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1712F12D6CE18700A30200 /* ViewFunctions.swift */; };
+		8B1712F52D6CE47400A30200 /* NCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1712F42D6CE47400A30200 /* NCart.swift */; };
+		8B1712F82D6CE4D200A30200 /* NCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1712F72D6CE4D200A30200 /* NCardView.swift */; };
+		8B1712FA2D6CE9A500A30200 /* NListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1712F92D6CE9A500A30200 /* NListView.swift */; };
+		8B1712FD2D6D02AB00A30200 /* ButtonPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1712FC2D6D02AB00A30200 /* ButtonPractice.swift */; };
+		8B1712FF2D6D05E500A30200 /* TextFiledPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1712FE2D6D05E500A30200 /* TextFiledPractice.swift */; };
+		8B1713012D6D089E00A30200 /* PickerPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1713002D6D089E00A30200 /* PickerPractice.swift */; };
+		8B1713032D6D60B100A30200 /* TogglePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1713022D6D60B100A30200 /* TogglePractice.swift */; };
 		8BDFA8B92D667F8200A17DA5 /* NotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA8B82D667F8200A17DA5 /* NotesApp.swift */; };
 		8BDFA8BB2D667F8200A17DA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA8BA2D667F8200A17DA5 /* ContentView.swift */; };
 		8BDFA8BD2D667F8400A17DA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BDFA8BC2D667F8400A17DA5 /* Assets.xcassets */; };
@@ -34,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B1712EF2D6CDD2600A30200 /* ExamplesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplesView.swift; sourceTree = "<group>"; };
+		8B1712F12D6CE18700A30200 /* ViewFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFunctions.swift; sourceTree = "<group>"; };
+		8B1712F42D6CE47400A30200 /* NCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCart.swift; sourceTree = "<group>"; };
+		8B1712F72D6CE4D200A30200 /* NCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCardView.swift; sourceTree = "<group>"; };
+		8B1712F92D6CE9A500A30200 /* NListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NListView.swift; sourceTree = "<group>"; };
+		8B1712FC2D6D02AB00A30200 /* ButtonPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPractice.swift; sourceTree = "<group>"; };
+		8B1712FE2D6D05E500A30200 /* TextFiledPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFiledPractice.swift; sourceTree = "<group>"; };
+		8B1713002D6D089E00A30200 /* PickerPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerPractice.swift; sourceTree = "<group>"; };
+		8B1713022D6D60B100A30200 /* TogglePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TogglePractice.swift; sourceTree = "<group>"; };
 		8BDFA8B52D667F8200A17DA5 /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BDFA8B82D667F8200A17DA5 /* NotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesApp.swift; sourceTree = "<group>"; };
 		8BDFA8BA2D667F8200A17DA5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +89,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B1712F32D6CE42600A30200 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8B1712F42D6CE47400A30200 /* NCart.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8B1712F62D6CE4A800A30200 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B1712F72D6CE4D200A30200 /* NCardView.swift */,
+				8B1712F92D6CE9A500A30200 /* NListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8B1712FB2D6CEA9600A30200 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				8B1712EF2D6CDD2600A30200 /* ExamplesView.swift */,
+				8B1712F12D6CE18700A30200 /* ViewFunctions.swift */,
+				8B1712FC2D6D02AB00A30200 /* ButtonPractice.swift */,
+				8B1712FE2D6D05E500A30200 /* TextFiledPractice.swift */,
+				8B1713002D6D089E00A30200 /* PickerPractice.swift */,
+				8B1713022D6D60B100A30200 /* TogglePractice.swift */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
 		8BDFA8AC2D667F8200A17DA5 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +142,9 @@
 		8BDFA8B72D667F8200A17DA5 /* Notes */ = {
 			isa = PBXGroup;
 			children = (
+				8B1712FB2D6CEA9600A30200 /* Extras */,
+				8B1712F62D6CE4A800A30200 /* Views */,
+				8B1712F32D6CE42600A30200 /* Models */,
 				8BDFA8B82D667F8200A17DA5 /* NotesApp.swift */,
 				8BDFA8BA2D667F8200A17DA5 /* ContentView.swift */,
 				8BDFA8BC2D667F8400A17DA5 /* Assets.xcassets */,
@@ -257,8 +308,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B1712F52D6CE47400A30200 /* NCart.swift in Sources */,
+				8B1713032D6D60B100A30200 /* TogglePractice.swift in Sources */,
+				8B1712F02D6CDD2600A30200 /* ExamplesView.swift in Sources */,
+				8B1713012D6D089E00A30200 /* PickerPractice.swift in Sources */,
 				8BDFA8BB2D667F8200A17DA5 /* ContentView.swift in Sources */,
+				8B1712F82D6CE4D200A30200 /* NCardView.swift in Sources */,
+				8B1712F22D6CE18700A30200 /* ViewFunctions.swift in Sources */,
+				8B1712FF2D6D05E500A30200 /* TextFiledPractice.swift in Sources */,
 				8BDFA8B92D667F8200A17DA5 /* NotesApp.swift in Sources */,
+				8B1712FD2D6D02AB00A30200 /* ButtonPractice.swift in Sources */,
+				8B1712FA2D6CE9A500A30200 /* NListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +490,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +520,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

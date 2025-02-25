@@ -8,8 +8,24 @@
 import SwiftUI
 
 struct ButtonPractice: View {
+@State var counter: Int = 0
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("\(counter)")
+            Button() {
+                counter += 1
+                print("Funciona el boton \(counter)")
+            } label: {
+//                Image(systemName: "house")
+                    Text("Press me")
+                    .font(.headline)
+                    .foregroundStyle(Color.white)
+                    .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
+                    .padding()
+                    .background(Color.blue)
+                    .cornerRadius(8)
+            }
+        }.padding()
     }
 }
 
